@@ -1,13 +1,16 @@
+
 <nav class="navbar navbar-inverse navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Shared Moments</a>
+    <%= link_to "My Trip", root_path, class: "navbar-brand" %>
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,4 +20,5 @@
       <li><%= link_to "About", about_path %></li> 
     </ul>
   </div><!-- /.navbar-collapse -->
+ </div><!-- /.container -->
 </nav>
