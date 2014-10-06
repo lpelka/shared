@@ -16,7 +16,7 @@ gem 'spring',        group: :development
 gem 'devise', '~> 3.3.0.rc2'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.54.0'
-gem 'masonry-rails', '~> 0.2.0'
+gem 'masonry-rails', '~> 0.2.1'
 
 group :development, :test do
      gem 'sqlite3'
